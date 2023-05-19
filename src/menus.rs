@@ -1,10 +1,6 @@
 use super::structs::Pokemon;
 use super::statics;
-
-use inquire::{error::InquireError, Select};
-
-use std::io::{Write, Read};
-use std::io;
+use inquire::Select;
 
 pub fn main_menu(pokemons: &Vec<Pokemon>) {
     loop {
